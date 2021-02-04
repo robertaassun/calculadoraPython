@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <div class="container bg-info p-3">
+        <div class="container p-4">
+            <h2 class="display-4 text-white">Calculadora</h2>
+            
+            <form class="text-white" method="POST">
+                <input type="number" placeholder="Digite o primeiro numero" name="n1" class="form-control my-3">
+                <input type="number" placeholder="Digite o segundo numero" name="n2" class="form-control my-3">
+
+                <input type="radio" name="option" value="soma" id="soma">
+                <label for="soma">Soma</label>
+
+                <input type="radio" name="option" value="subtracao" id="subtracao">
+                <label for="subtracao">Subtração</label>
+
+                <input type="radio" name="option" value="multiplicacao" id="multiplicacao">
+                <label for="multiplicacao">Multiplicação</label>
+
+                <input type="radio" name="option" value="divisao" id="divisao">
+                <label for="divisao">Divisão</label>
+                <br><br>
+                <button class="btn btn-primary">Calcular</button>
+                <button class="btn btn-secondary" type="reset">Cancelar</button>
+            </form>
+        </div>
+
+    </div>
+    
+</body>
+</html>
